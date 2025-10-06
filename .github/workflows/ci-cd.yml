@@ -24,12 +24,12 @@ jobs:
       
       - name: Build Docker image
         run: |
-          docker build -t sanuda/flask-hello:latest .
+          docker build -t sanaaj/flask-hello:latest .
 
       
       - name: Push Docker image
         run: |
-          docker push sanuda/flask-hello:latest
+          docker push sanaaj/flask-hello:latest
 
       
       - name: Set up kubectl
