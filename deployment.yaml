@@ -16,4 +16,4 @@ spec:
       - name: flask-hello
         image: sanaaj/flask-hello:latest  
         ports:
-        - containerPort: 5000
+        - containerPort: 8080
